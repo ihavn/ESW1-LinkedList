@@ -75,8 +75,7 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a7f15113f22d42c643c07d0318fb6e00b"><td class="memItemLeft" align="right" valign="top"><a id="a7f15113f22d42c643c07d0318fb6e00b"></a>
-typedef struct list *&#160;</td><td class="memItemRight" valign="bottom"><b>list_t</b></td></tr>
+<tr class="memitem:a7f15113f22d42c643c07d0318fb6e00b"><td class="memItemLeft" align="right" valign="top">typedef struct list *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#a7f15113f22d42c643c07d0318fb6e00b">list_t</a></td></tr>
 <tr class="separator:a7f15113f22d42c643c07d0318fb6e00b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -95,26 +94,42 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a055723090302244b9a438e7705c2f7b3"><td class="memItemLeft" align="right" valign="top">list_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#a055723090302244b9a438e7705c2f7b3">list_create</a> (void)</td></tr>
+<tr class="memitem:a055723090302244b9a438e7705c2f7b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="list_8h.html#a7f15113f22d42c643c07d0318fb6e00b">list_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#a055723090302244b9a438e7705c2f7b3">list_create</a> (void)</td></tr>
 <tr class="memdesc:a055723090302244b9a438e7705c2f7b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a new instance of the linked list.  <a href="#a055723090302244b9a438e7705c2f7b3">More...</a><br /></td></tr>
 <tr class="separator:a055723090302244b9a438e7705c2f7b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7763817d7a1973f7d44d10d2d596fb0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="list_8h.html#a1586779599c807b2e3484e9ce746e9c7">list_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#a7763817d7a1973f7d44d10d2d596fb0e">list_addItem</a> (list_t self, void *item)</td></tr>
+<tr class="memitem:a7763817d7a1973f7d44d10d2d596fb0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="list_8h.html#a1586779599c807b2e3484e9ce746e9c7">list_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#a7763817d7a1973f7d44d10d2d596fb0e">list_addItem</a> (<a class="el" href="list_8h.html#a7f15113f22d42c643c07d0318fb6e00b">list_t</a> self, void *item)</td></tr>
 <tr class="memdesc:a7763817d7a1973f7d44d10d2d596fb0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add an item to the linked list.  <a href="#a7763817d7a1973f7d44d10d2d596fb0e">More...</a><br /></td></tr>
 <tr class="separator:a7763817d7a1973f7d44d10d2d596fb0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61ef09343055f2face210cf69f949736"><td class="memItemLeft" align="right" valign="top"><a class="el" href="list_8h.html#a1586779599c807b2e3484e9ce746e9c7">list_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#a61ef09343055f2face210cf69f949736">list_getItem</a> (list_t self, void *item, uint16_t index)</td></tr>
+<tr class="memitem:a61ef09343055f2face210cf69f949736"><td class="memItemLeft" align="right" valign="top"><a class="el" href="list_8h.html#a1586779599c807b2e3484e9ce746e9c7">list_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#a61ef09343055f2face210cf69f949736">list_getItem</a> (<a class="el" href="list_8h.html#a7f15113f22d42c643c07d0318fb6e00b">list_t</a> self, void *item, uint16_t index)</td></tr>
 <tr class="memdesc:a61ef09343055f2face210cf69f949736"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get an item from the linked list.  <a href="#a61ef09343055f2face210cf69f949736">More...</a><br /></td></tr>
 <tr class="separator:a61ef09343055f2face210cf69f949736"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a1336e5d4c741fa05b4c0b7fa9fed07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="list_8h.html#a1586779599c807b2e3484e9ce746e9c7">list_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#a7a1336e5d4c741fa05b4c0b7fa9fed07">list_removeItem</a> (list_t self, void *item)</td></tr>
+<tr class="memitem:a7a1336e5d4c741fa05b4c0b7fa9fed07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="list_8h.html#a1586779599c807b2e3484e9ce746e9c7">list_ReturnCode_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#a7a1336e5d4c741fa05b4c0b7fa9fed07">list_removeItem</a> (<a class="el" href="list_8h.html#a7f15113f22d42c643c07d0318fb6e00b">list_t</a> self, void *item)</td></tr>
 <tr class="memdesc:a7a1336e5d4c741fa05b4c0b7fa9fed07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove an item from the linked list.  <a href="#a7a1336e5d4c741fa05b4c0b7fa9fed07">More...</a><br /></td></tr>
 <tr class="separator:a7a1336e5d4c741fa05b4c0b7fa9fed07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49cedd467302b7b80d3bc1a6eab1f167"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#a49cedd467302b7b80d3bc1a6eab1f167">list_noOfItems</a> (list_t self)</td></tr>
+<tr class="memitem:a49cedd467302b7b80d3bc1a6eab1f167"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="list_8h.html#a49cedd467302b7b80d3bc1a6eab1f167">list_noOfItems</a> (<a class="el" href="list_8h.html#a7f15113f22d42c643c07d0318fb6e00b">list_t</a> self)</td></tr>
 <tr class="memdesc:a49cedd467302b7b80d3bc1a6eab1f167"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get no of items currently in the linked list.  <a href="#a49cedd467302b7b80d3bc1a6eab1f167">More...</a><br /></td></tr>
 <tr class="separator:a49cedd467302b7b80d3bc1a6eab1f167"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Ib Havn </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>1.0.0 Linked list. </dd></dl>
-</div><h2 class="groupheader">Enumeration Type Documentation</h2>
+</div><h2 class="groupheader">Typedef Documentation</h2>
+<a id="a7f15113f22d42c643c07d0318fb6e00b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f15113f22d42c643c07d0318fb6e00b">&#9670;&nbsp;</a></span>list_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct list* <a class="el" href="list_8h.html#a7f15113f22d42c643c07d0318fb6e00b">list_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Pointer to the list instance. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a1586779599c807b2e3484e9ce746e9c7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1586779599c807b2e3484e9ce746e9c7">&#9670;&nbsp;</a></span>list_ReturnCode_t</h2>
 
@@ -154,7 +169,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="list_8h.html#a1586779599c807b2e3484e9ce746e9c7">list_ReturnCode_t</a> list_addItem </td>
           <td>(</td>
-          <td class="paramtype">list_t&#160;</td>
+          <td class="paramtype"><a class="el" href="list_8h.html#a7f15113f22d42c643c07d0318fb6e00b">list_t</a>&#160;</td>
           <td class="paramname"><em>self</em>, </td>
         </tr>
         <tr>
@@ -199,7 +214,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">list_t list_create </td>
+          <td class="memname"><a class="el" href="list_8h.html#a7f15113f22d42c643c07d0318fb6e00b">list_t</a> list_create </td>
           <td>(</td>
           <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -230,7 +245,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="list_8h.html#a1586779599c807b2e3484e9ce746e9c7">list_ReturnCode_t</a> list_getItem </td>
           <td>(</td>
-          <td class="paramtype">list_t&#160;</td>
+          <td class="paramtype"><a class="el" href="list_8h.html#a7f15113f22d42c643c07d0318fb6e00b">list_t</a>&#160;</td>
           <td class="paramname"><em>self</em>, </td>
         </tr>
         <tr>
@@ -286,7 +301,7 @@ The item is not removed from the list - if removal is wanted then use <a class="
         <tr>
           <td class="memname">uint16_t list_noOfItems </td>
           <td>(</td>
-          <td class="paramtype">list_t&#160;</td>
+          <td class="paramtype"><a class="el" href="list_8h.html#a7f15113f22d42c643c07d0318fb6e00b">list_t</a>&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
           <td></td>
         </tr>
@@ -314,7 +329,7 @@ The item is not removed from the list - if removal is wanted then use <a class="
         <tr>
           <td class="memname"><a class="el" href="list_8h.html#a1586779599c807b2e3484e9ce746e9c7">list_ReturnCode_t</a> list_removeItem </td>
           <td>(</td>
-          <td class="paramtype">list_t&#160;</td>
+          <td class="paramtype"><a class="el" href="list_8h.html#a7f15113f22d42c643c07d0318fb6e00b">list_t</a>&#160;</td>
           <td class="paramname"><em>self</em>, </td>
         </tr>
         <tr>

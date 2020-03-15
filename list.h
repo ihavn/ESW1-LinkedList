@@ -8,7 +8,9 @@
 */
 #include <stdint.h>
 
-
+/** 
+Pointer to the list instance.
+*/
 typedef struct list * list_t;
 
 /**
