@@ -30,7 +30,7 @@ typedef enum {
 /**
 \brief Create a new instance of the linked list
 
-Creates and initialize the LoRa Driver.
+Creates and initialize a new linked list.
 
 \return list_t pointer to the new instance.
 \retval NULL Out of memory - the list is not created!
@@ -40,12 +40,27 @@ list_t list_create(void);
 
 /* ======================================================================================================================= */
 /**
+\brief Destroy a linked list
+
+Removes all nodes and cleans up memory for the linked list. 
+
+\note The list must be created before use \ref list_create.
+\note The Items are not removed - that is up to the user.
+
+\return list_ReturnCode_t.
+\retval LIST_OK The list is detroyed.
+\retval LIST_NULL The list pointer must not be NULL.
+*/
+list_ReturnCode_t list_destroy(list_t self);
+
+/* ======================================================================================================================= */
+/**
 \brief Add an item to the linked list.
 
 \note The list must be created before use \ref list_create.
 
 \param[in] self pointer to the list to add the item to.
-\param[in] item pointer to the item to add to the list.
+\param[in] *item pointer to the item to add to the list.
 
 \return list_ReturnCode_t.
 \retval LIST_OK The item is added to the linked list.
@@ -63,7 +78,7 @@ list_ReturnCode_t list_addItem(list_t self, void* item);
 \note  The item is not removed from the list - if removal is wanted then use \ref list_removeItem.
 
 \param[in] self pointer to the list to get the item from.
-\param[out] item pointer to where the item will be returned.
+\param[out] **item pointer to the pointer where the items address will be returned.
 \param[in] index to the item in the list to get.
 
 \return list_ReturnCode_t.
@@ -71,7 +86,7 @@ list_ReturnCode_t list_addItem(list_t self, void* item);
 \retval LIST_NULL The list pointer must not be NULL.
 \retval LIST_NOT_FOUND the item is not found in the list and item will be assigned to NULL.
 */
-list_ReturnCode_t list_getItem(list_t self, void* item, uint16_t index);
+list_ReturnCode_t list_getItem(list_t self, void** item, uint16_t index);
 
 /* ======================================================================================================================= */
 /**
@@ -80,7 +95,7 @@ list_ReturnCode_t list_getItem(list_t self, void* item, uint16_t index);
 \note The list must be created before use \ref list_create.
 
 \param[in] self pointer to the list to remove the item from.
-\param[in] item pointer to the item that will be removed.
+\param[in] *item pointer to the item that will be removed.
 
 \return list_ReturnCode_t.
 \retval LIST_OK The item is found and removed from the list.
