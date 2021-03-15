@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['list_5freturncode_5ft',['list_ReturnCode_t',['../list_8h.html#a1586779599c807b2e3484e9ce746e9c7',1,'list.h']]]
+  ['linkedlist_5freturn_5fcodes_5ft_34',['linkedList_return_codes_t',['../group__linked__list__return.html#ga653b2f6ab872275cfd01865a0cc07b94',1,'LinkedList.h']]]
 ];

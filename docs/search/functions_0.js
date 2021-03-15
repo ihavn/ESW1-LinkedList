@@ -1,9 +1,13 @@
 var searchData=
 [
-  ['list_5fadditem',['list_addItem',['../list_8h.html#a7763817d7a1973f7d44d10d2d596fb0e',1,'list.h']]],
-  ['list_5fcreate',['list_create',['../list_8h.html#a055723090302244b9a438e7705c2f7b3',1,'list.h']]],
-  ['list_5fdestroy',['list_destroy',['../list_8h.html#ae668a30fe7dba61e49118fe496530839',1,'list.h']]],
-  ['list_5fgetitem',['list_getItem',['../list_8h.html#ad530d3ab3ade2c36c62263991a4eed0f',1,'list.h']]],
-  ['list_5fnoofitems',['list_noOfItems',['../list_8h.html#a49cedd467302b7b80d3bc1a6eab1f167',1,'list.h']]],
-  ['list_5fremoveitem',['list_removeItem',['../list_8h.html#a7a1336e5d4c741fa05b4c0b7fa9fed07',1,'list.h']]]
+  ['linkedlist_5fclear_24',['linkedList_clear',['../group__linked__list__function.html#ga362b2e805edff147aede9258df16c1f4',1,'LinkedList.h']]],
+  ['linkedlist_5fcontainsitem_25',['linkedList_containsItem',['../group__linked__list__function.html#gac3f7f73114e281b7da8eb9f8010c715f',1,'LinkedList.h']]],
+  ['linkedlist_5fcreate_26',['linkedList_create',['../group__linked__list__init.html#ga99665c9ae04558dc05d913af335e00a7',1,'LinkedList.h']]],
+  ['linkedlist_5fgetiterator_27',['linkedList_getIterator',['../group__linked__list__function.html#ga55cbbef28d32a2a293439ddf8f14a824',1,'LinkedList.h']]],
+  ['linkedlist_5fiteratornext_28',['linkedList_iteratorNext',['../group__linked__list__function.html#ga9810d51dff7c36b27901d5b3f005ca00',1,'LinkedList.h']]],
+  ['linkedlist_5flength_29',['linkedList_length',['../group__linked__list__function.html#gab7028a90a05dd899c5a3d6862cef3e37',1,'LinkedList.h']]],
+  ['linkedlist_5fpeekitembyindex_30',['linkedList_peekItemByIndex',['../group__linked__list__function.html#gac4071ccb45e00f36b0ef40f3a457456e',1,'LinkedList.h']]],
+  ['linkedlist_5fpull_31',['linkedList_pull',['../group__linked__list__function.html#gaf08d2b868fa3f6ba2d74e06eb63e41f1',1,'LinkedList.h']]],
+  ['linkedlist_5fpush_32',['linkedList_push',['../group__linked__list__function.html#gac135e6960d49913c2db94238118cc105',1,'LinkedList.h']]],
+  ['linkedlist_5fremoveitem_33',['linkedList_removeItem',['../group__linked__list__function.html#ga0ff75e2101a9ba7582fb4d8d1f0feb88',1,'LinkedList.h']]]
 ];

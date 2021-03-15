@@ -353,3 +353,5 @@ MigrationBackup/
 *.filters
 
 list.c
+
+LinkedList.c
